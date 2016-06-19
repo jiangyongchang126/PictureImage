@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2546746CC938A31F51DBA8FB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3ECC38A44ED95E43A233443 /* libPods.a */; };
 		B32FC2031D1198BD002CB2B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B32FC2021D1198BD002CB2B1 /* main.m */; };
 		B32FC2061D1198BD002CB2B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B32FC2051D1198BD002CB2B1 /* AppDelegate.m */; };
 		B32FC2091D1198BD002CB2B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32FC2081D1198BD002CB2B1 /* ViewController.m */; };
@@ -14,6 +15,16 @@
 		B32FC20E1D1198BD002CB2B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32FC20D1D1198BD002CB2B1 /* Assets.xcassets */; };
 		B32FC2111D1198BD002CB2B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32FC20F1D1198BD002CB2B1 /* LaunchScreen.storyboard */; };
 		B32FC21C1D1198BD002CB2B1 /* PictureImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B32FC21B1D1198BD002CB2B1 /* PictureImageUITests.m */; };
+		B32FC2281D119BAC002CB2B1 /* SvIncrementallyImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B32FC2271D119BAC002CB2B1 /* SvIncrementallyImage.m */; };
+		B32FC22B1D11A821002CB2B1 /* JYCImageIOP.m in Sources */ = {isa = PBXBuildFile; fileRef = B32FC22A1D11A821002CB2B1 /* JYCImageIOP.m */; };
+		B3A3EE4E1D12347D002FCA4B /* UIFont+SetFontWithiPhoneStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A3EE4D1D12347D002FCA4B /* UIFont+SetFontWithiPhoneStyle.m */; };
+		B3A3EE511D124035002FCA4B /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A3EE501D124035002FCA4B /* UIImage+animatedGIF.m */; };
+		B3A3EE571D12413F002FCA4B /* UIViewController+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A3EE561D12413F002FCA4B /* UIViewController+Loading.m */; };
+		B3A3EE5B1D124546002FCA4B /* niconiconi.gif in Resources */ = {isa = PBXBuildFile; fileRef = B3A3EE5A1D124546002FCA4B /* niconiconi.gif */; };
+		B3A3EE641D124555002FCA4B /* load.gif in Resources */ = {isa = PBXBuildFile; fileRef = B3A3EE5D1D124555002FCA4B /* load.gif */; };
+		B3A3EE651D124555002FCA4B /* loadWater.gif in Resources */ = {isa = PBXBuildFile; fileRef = B3A3EE5E1D124555002FCA4B /* loadWater.gif */; };
+		B3A3EE661D124555002FCA4B /* stronLoading.gif in Resources */ = {isa = PBXBuildFile; fileRef = B3A3EE5F1D124555002FCA4B /* stronLoading.gif */; };
+		B3A3EE691D124555002FCA4B /* kuColorLoading.gif in Resources */ = {isa = PBXBuildFile; fileRef = B3A3EE621D124555002FCA4B /* kuColorLoading.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4719AFC2DB3E9C22E50A4B55 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A6406516AE586348F314C8E4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B32FC1FE1D1198BD002CB2B1 /* PictureImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32FC2021D1198BD002CB2B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B32FC2041D1198BD002CB2B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +53,22 @@
 		B32FC2171D1198BD002CB2B1 /* PictureImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32FC21B1D1198BD002CB2B1 /* PictureImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureImageUITests.m; sourceTree = "<group>"; };
 		B32FC21D1D1198BD002CB2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32FC2261D119BAC002CB2B1 /* SvIncrementallyImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SvIncrementallyImage.h; sourceTree = "<group>"; };
+		B32FC2271D119BAC002CB2B1 /* SvIncrementallyImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SvIncrementallyImage.m; sourceTree = "<group>"; };
+		B32FC2291D11A821002CB2B1 /* JYCImageIOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCImageIOP.h; sourceTree = "<group>"; };
+		B32FC22A1D11A821002CB2B1 /* JYCImageIOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCImageIOP.m; sourceTree = "<group>"; };
+		B3A3EE4C1D12347D002FCA4B /* UIFont+SetFontWithiPhoneStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+SetFontWithiPhoneStyle.h"; sourceTree = "<group>"; };
+		B3A3EE4D1D12347D002FCA4B /* UIFont+SetFontWithiPhoneStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+SetFontWithiPhoneStyle.m"; sourceTree = "<group>"; };
+		B3A3EE4F1D124035002FCA4B /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		B3A3EE501D124035002FCA4B /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		B3A3EE551D12413F002FCA4B /* UIViewController+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Loading.h"; sourceTree = "<group>"; };
+		B3A3EE561D12413F002FCA4B /* UIViewController+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Loading.m"; sourceTree = "<group>"; };
+		B3A3EE5A1D124546002FCA4B /* niconiconi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = niconiconi.gif; sourceTree = "<group>"; };
+		B3A3EE5D1D124555002FCA4B /* load.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = load.gif; sourceTree = "<group>"; };
+		B3A3EE5E1D124555002FCA4B /* loadWater.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadWater.gif; sourceTree = "<group>"; };
+		B3A3EE5F1D124555002FCA4B /* stronLoading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stronLoading.gif; sourceTree = "<group>"; };
+		B3A3EE621D124555002FCA4B /* kuColorLoading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kuColorLoading.gif; sourceTree = "<group>"; };
+		E3ECC38A44ED95E43A233443 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2546746CC938A31F51DBA8FB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +90,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E2103B04A1FBA6504B1C07D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3ECC38A44ED95E43A233443 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A1B3259C4C3521D8E9C0ED4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4719AFC2DB3E9C22E50A4B55 /* Pods.debug.xcconfig */,
+				A6406516AE586348F314C8E4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B32FC1F51D1198BD002CB2B1 = {
 			isa = PBXGroup;
 			children = (
 				B32FC2001D1198BD002CB2B1 /* PictureImage */,
 				B32FC21A1D1198BD002CB2B1 /* PictureImageUITests */,
 				B32FC1FF1D1198BD002CB2B1 /* Products */,
+				4A1B3259C4C3521D8E9C0ED4 /* Pods */,
+				2E2103B04A1FBA6504B1C07D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +134,17 @@
 				B32FC2051D1198BD002CB2B1 /* AppDelegate.m */,
 				B32FC2071D1198BD002CB2B1 /* ViewController.h */,
 				B32FC2081D1198BD002CB2B1 /* ViewController.m */,
+				B32FC2261D119BAC002CB2B1 /* SvIncrementallyImage.h */,
+				B32FC2271D119BAC002CB2B1 /* SvIncrementallyImage.m */,
+				B32FC2291D11A821002CB2B1 /* JYCImageIOP.h */,
+				B32FC22A1D11A821002CB2B1 /* JYCImageIOP.m */,
+				B3A3EE4F1D124035002FCA4B /* UIImage+animatedGIF.h */,
+				B3A3EE501D124035002FCA4B /* UIImage+animatedGIF.m */,
+				B3A3EE551D12413F002FCA4B /* UIViewController+Loading.h */,
+				B3A3EE561D12413F002FCA4B /* UIViewController+Loading.m */,
+				B3A3EE4C1D12347D002FCA4B /* UIFont+SetFontWithiPhoneStyle.h */,
+				B3A3EE4D1D12347D002FCA4B /* UIFont+SetFontWithiPhoneStyle.m */,
+				B3A3EE591D124546002FCA4B /* GIF */,
 				B32FC20A1D1198BD002CB2B1 /* Main.storyboard */,
 				B32FC20D1D1198BD002CB2B1 /* Assets.xcassets */,
 				B32FC20F1D1198BD002CB2B1 /* LaunchScreen.storyboard */,
@@ -111,6 +171,18 @@
 			path = PictureImageUITests;
 			sourceTree = "<group>";
 		};
+		B3A3EE591D124546002FCA4B /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				B3A3EE5D1D124555002FCA4B /* load.gif */,
+				B3A3EE5E1D124555002FCA4B /* loadWater.gif */,
+				B3A3EE5F1D124555002FCA4B /* stronLoading.gif */,
+				B3A3EE621D124555002FCA4B /* kuColorLoading.gif */,
+				B3A3EE5A1D124546002FCA4B /* niconiconi.gif */,
+			);
+			path = GIF;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B32FC2201D1198BD002CB2B1 /* Build configuration list for PBXNativeTarget "PictureImage" */;
 			buildPhases = (
+				8612ABDCAEED24A33F6896CA /* Check Pods Manifest.lock */,
 				B32FC1FA1D1198BD002CB2B1 /* Sources */,
 				B32FC1FB1D1198BD002CB2B1 /* Frameworks */,
 				B32FC1FC1D1198BD002CB2B1 /* Resources */,
+				A0D72EFC4390F4546665357D /* Embed Pods Frameworks */,
+				1E424F864813681978E9550C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,9 +266,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A3EE661D124555002FCA4B /* stronLoading.gif in Resources */,
+				B3A3EE691D124555002FCA4B /* kuColorLoading.gif in Resources */,
 				B32FC2111D1198BD002CB2B1 /* LaunchScreen.storyboard in Resources */,
 				B32FC20E1D1198BD002CB2B1 /* Assets.xcassets in Resources */,
 				B32FC20C1D1198BD002CB2B1 /* Main.storyboard in Resources */,
+				B3A3EE641D124555002FCA4B /* load.gif in Resources */,
+				B3A3EE5B1D124546002FCA4B /* niconiconi.gif in Resources */,
+				B3A3EE651D124555002FCA4B /* loadWater.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,14 +286,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E424F864813681978E9550C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8612ABDCAEED24A33F6896CA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D72EFC4390F4546665357D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B32FC1FA1D1198BD002CB2B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32FC22B1D11A821002CB2B1 /* JYCImageIOP.m in Sources */,
+				B32FC2281D119BAC002CB2B1 /* SvIncrementallyImage.m in Sources */,
 				B32FC2091D1198BD002CB2B1 /* ViewController.m in Sources */,
+				B3A3EE571D12413F002FCA4B /* UIViewController+Loading.m in Sources */,
+				B3A3EE4E1D12347D002FCA4B /* UIFont+SetFontWithiPhoneStyle.m in Sources */,
 				B32FC2061D1198BD002CB2B1 /* AppDelegate.m in Sources */,
 				B32FC2031D1198BD002CB2B1 /* main.m in Sources */,
+				B3A3EE511D124035002FCA4B /* UIImage+animatedGIF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,9 +472,11 @@
 		};
 		B32FC2211D1198BD002CB2B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4719AFC2DB3E9C22E50A4B55 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PictureImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jiangyongchang.PictureImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,9 +485,11 @@
 		};
 		B32FC2221D1198BD002CB2B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6406516AE586348F314C8E4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PictureImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jiangyongchang.PictureImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -400,6 +537,7 @@
 				B32FC2221D1198BD002CB2B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B32FC2231D1198BD002CB2B1 /* Build configuration list for PBXNativeTarget "PictureImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +546,7 @@
 				B32FC2251D1198BD002CB2B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
